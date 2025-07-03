@@ -21,7 +21,6 @@ public class Main {
                     toplam += i;
                 }
             }
-
             return number == toplam;
         }
 
@@ -67,7 +66,6 @@ public class Main {
                     break;
             }
         }
-        return result.toString();
+        return result.toString().trim();
         }
-
 }
